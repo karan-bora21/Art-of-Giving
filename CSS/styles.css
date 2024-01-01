@@ -45,7 +45,7 @@ a:hover::before {
     margin: auto;
 }
 
-.card {
+.card_1 {
     width: 275px;
     height: 295px;
     border-radius: 15px;
@@ -59,11 +59,11 @@ a:hover::before {
     margin-left: 24px;
 }
 
-.card:hover {
+.card_1:hover {
     transform: translateY(20px);
 }
 
-.card:before {
+.card_1:before {
     content: "";
     position: absolute;
     top: 0;
@@ -78,11 +78,11 @@ a:hover::before {
     opacity: 0;
 }
 
-.card:hover:before {
+.card_1:hover:before {
     opacity: 1;
 }
 
-.card img {
+.card_1 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -92,7 +92,7 @@ a:hover::before {
     border-radius: 15px;
 }
 
-.card .info {
+.card_1 .info {
     position: relative;
     z-index: 3;
     color: white;
@@ -101,22 +101,22 @@ a:hover::before {
     transition: 0.5s;
 }
 
-.card:hover .info {
+.card_1:hover .info {
     opacity: 1;
     transform: translateY(0px);
 }
 
-.card .info h1 {
+.card_1 .info h1 {
     margin: 0px;
 }
 
-.card .info p {
+.card_1 .info p {
     letter-spacing: 0.8px;
     font-size: 13px;
     margin-top: 5px;
 }
 
-.card .info button {
+.card_1 .info button {
     padding: 0.6rem;
     outline: none;
     border: none;
@@ -128,7 +128,7 @@ a:hover::before {
     transition: 0.4s ease;
 }
 
-.card .info button:hover {
+.card_1 .info button:hover {
     background: dodgerblue;
     color: white;
 }
@@ -136,6 +136,31 @@ a:hover::before {
 .card-row {
     width: 100%;
     margin: 50px auto;
+}
+
+/* About Us */
+.about-us {
+    width:100%;
+    height:300px;
+    background-color: white;
+    margin:60px auto;
+    background-image: url("../Images/about-us2.avif");
+    text-align: center;
+    position: relative;
+}
+
+/* .about-us-img {
+    width: 100%;
+    height: 400px;
+    opacity:1 ;
+    border-radius: 1%;
+} */
+
+.about-us-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 
@@ -228,6 +253,7 @@ a:hover::before {
     }
 }
 
+
 /* Part 7 */
 footer {
     background-color: #25211b;
@@ -249,3 +275,19 @@ ul {
     color: #fff;
     background-color: #000;
 }
+/* Part-5 */ 
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+
+.part-5-row {
+    width:100%;
+}
+
+
+
+
