@@ -253,6 +253,28 @@ a:hover::before {
     }
 }
 
+
+/* Part 7 */
+footer {
+    background-color: #25211b;
+    color: #fff;
+    padding: 12px 70px;
+}
+
+.footer-logo {
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-btn {
+    margin-top: 16px;
+    color: #fff;
+    background-color: #000;
+}
 /* Part-5 */ 
 
 .card-img-top {
@@ -265,6 +287,7 @@ a:hover::before {
 .part-5-row {
     width:100%;
 }
+
 
 
 
