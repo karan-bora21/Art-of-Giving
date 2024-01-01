@@ -31,6 +31,10 @@ a:hover::before {
   transform: scaleX(1);
 }
 
+.carousel-img {
+    height: 400px;
+}
+
 /* Part-3 */
 
 * {
@@ -60,7 +64,7 @@ a:hover::before {
 }
 
 .card_1:hover {
-    transform: translateY(20px);
+    transform:scale(1.05);
 }
 
 .card_1:before {
@@ -168,6 +172,7 @@ a:hover::before {
 
 .part-4 {
     margin-top: 100px;
+    margin-bottom: 5%;
 }
 
 .circle {
@@ -194,7 +199,7 @@ a:hover::before {
 @media (prefers-reduced-motion: no-preference){
     .img-1 {
         float: right;
-        animation: slideout-left 2s;
+        animation: slideout-left 1s;
         /* animation-iteration-count: infinite; */
     }
 }
@@ -202,7 +207,7 @@ a:hover::before {
 @media (prefers-reduced-motion: no-preference) {
     .img-2 {
         float: left;
-        animation: slidein-right 2s;
+        animation: slidein-right 1s;
         /* animation-iteration-count: infinite; */
     }
 }
@@ -211,7 +216,7 @@ a:hover::before {
     .txt-1 {
         text-align: left;
         padding: 50px;
-        animation: slideout-right 3s;
+        animation: slideout-right 1.5s;
         /* animation-iteration-count: infinite; */
         
     }
@@ -221,7 +226,7 @@ a:hover::before {
     .txt-2 {
         text-align: right;
         padding: 50px;
-        animation: slideout-right 3s;
+        animation: slideout-right 1.5s;
         /* animation-iteration-count: infinite; */
     }
 }
@@ -274,6 +279,10 @@ ul {
     margin-top: 16px;
     color: #fff;
     background-color: #000;
+}
+
+.part-7 {
+    margin-top: 5%;
 }
 /* Part-5 */ 
 
