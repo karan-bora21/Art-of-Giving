@@ -1,4 +1,34 @@
+h1 {
+    font-family:'gallery_modernregular!important';
+    font-weight:400;
+}
 
+h2 {
+    font-family:'gallery_modernregular!important';
+    font-weight:400;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+h5 {
+    font-family:'gallery_modernregular!important';
+    font-weight:700;
+}
+
+h4 {
+    font-family:'gallery_modernregular!important';
+    font-weight:400;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
+    padding-right: 25px;
+}
 /* Part-1 CSS */
 .navitem {
     margin: 0 28px;
@@ -35,6 +65,9 @@ a:hover::before {
     height: 400px;
 }
 
+.nav-text {
+    font-family: 'Poppins', sans-serif;
+}
 /* Part-3 */
 
 * {
@@ -103,6 +136,7 @@ a:hover::before {
     opacity: 0;
     transform: translateY(30px);
     transition: 0.5s;
+    font-family: 'Poppins', sans-serif;
 }
 
 .card_1:hover .info {
@@ -151,6 +185,8 @@ a:hover::before {
     background-image: url("../Images/about-us2.avif");
     text-align: center;
     position: relative;
+    font-size:18px;
+    line-height: 1.5;
 }
 
 /* .about-us-img {
@@ -192,7 +228,7 @@ a:hover::before {
 }
 
 .circle-img-txt {
-    margin-top: 20px;
+    margin-top: 50px;
     
 }
 
@@ -258,8 +294,17 @@ a:hover::before {
     }
 }
 
+.card-text {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
 
 /* Part 7 */
+.f1 {
+    margin: 30px 0 60px;
+}
+
 footer {
     background-color: #25211b;
     color: #fff;
@@ -287,8 +332,8 @@ ul {
 /* Part-5 */ 
 
 .card-img-top {
+    height: 280px;
     width: 100%;
-    height: 15vw;
     object-fit: cover;
 }
 
