@@ -62,7 +62,7 @@ a:hover::before {
 }
 
 .carousel-img {
-    height: 400px;
+    height: 70vh;
 }
 
 .nav-text {
@@ -74,6 +74,7 @@ a:hover::before {
     box-sizing: border-box;
 }
 
+/* Part-3 */
 
 .wrapper {
     display: flex;
