@@ -31,12 +31,11 @@ a:hover::before {
   transform: scaleX(1);
 }
 
-/* Part-3 */
-
-* {
-    box-sizing: border-box;
+.carousel-img {
+    height: 70vh;
 }
 
+/* Part-3 */
 
 .wrapper {
     display: flex;
