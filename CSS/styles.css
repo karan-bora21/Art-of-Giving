@@ -11,8 +11,10 @@ h1 {
 }
 
 h2 {
-    font-family:'myFirstFont'!important;;
+    font-family:'gallery modernregular!important';
+    font-family:'myFirstFont'!important;
     font-weight:400;
+    font-style: normal;
 }
 
 p {
@@ -20,12 +22,12 @@ p {
 }
 
 h5 {
-    font-family:'myFirstFont'!important;;
+    font-family:'myFirstFont'!important;
     font-weight:700;
 }
 
 h4 {
-    font-family:'myFirstFont'!important;;
+    font-family:'myFirstFont'!important;
     font-weight:400;
 }
 
@@ -349,6 +351,7 @@ ul {
 .part-5-row {
     width:100%;
 }
+
 
 
 
