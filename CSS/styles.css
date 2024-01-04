@@ -1,10 +1,18 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("../GalleryModern.otf");
+}
+
 h1 {
-    font-family:'gallery_modernregular!important';
+    font-family:'myFirstFont'!important;
     font-weight:400;
+    font-size: 3.4rem;
+    
 }
 
 h2 {
     font-family:'gallery modernregular!important';
+    font-family:'myFirstFont'!important;
     font-weight:400;
     font-style: normal;
 }
@@ -14,12 +22,12 @@ p {
 }
 
 h5 {
-    font-family:'gallery_modernregular!important';
+    font-family:'myFirstFont'!important;
     font-weight:700;
 }
 
 h4 {
-    font-family:'gallery_modernregular!important';
+    font-family:'myFirstFont'!important;
     font-weight:400;
 }
 
