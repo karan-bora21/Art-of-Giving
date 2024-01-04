@@ -4,8 +4,9 @@ h1 {
 }
 
 h2 {
-    font-family:'gallery_modernregular!important';
+    font-family:'gallery modernregular!important';
     font-weight:400;
+    font-style: normal;
 }
 
 p {
@@ -342,6 +343,7 @@ ul {
 .part-5-row {
     width:100%;
 }
+
 
 
 
